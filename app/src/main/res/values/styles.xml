@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppPortfolioActivityStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/app_background</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppItem.AppTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/appTitleColor</item>
+        <item name="android:layout_marginBottom">@dimen/app_title_margin_bottom</item>
+    </style>
+
+    <style name="AppItem.AppButton">
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:layout_marginBottom">@dimen/app_buttons_margin_bottom</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppItem.AppButton.NanodegreeAppButton">
+        <item name="android:background">@drawable/button_orange</item>
+    </style>
+
+    <style name="AppItem.AppButton.OwnAppButton">
+        <item name="android:background">@drawable/button_red</item>
+    </style>
+
+</resources>

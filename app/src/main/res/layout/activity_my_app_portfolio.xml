@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyAppPortfolioActivity"
+    style="@style/AppPortfolioActivityStyle">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:text="@string/app_title"
+        style="@style/AppItem.AppTitle" />
+
+    <Button
+        android:text="@string/media_stream_app_button_label"
+        android:id="@+id/mediaSteamAppButton"
+        style="@style/AppItem.AppButton.NanodegreeAppButton"
+        android:onClick="onMediaStreamAppButtonClick" />
+
+    <Button
+        android:text="@string/scores_app_button_label"
+        android:id="@+id/scoresAppButton"
+        style="@style/AppItem.AppButton.NanodegreeAppButton"
+        android:onClick="onScoresAppButtonClick" />
+
+    <Button
+        android:text="@string/library_app_button_label"
+        android:id="@+id/libraryAppButton"
+        style="@style/AppItem.AppButton.NanodegreeAppButton"
+        android:onClick="onLibraryAppButtonClick" />
+
+    <Button
+        android:text="@string/ant_app_button_label"
+        android:id="@+id/antAppButton"
+        style="@style/AppItem.AppButton.NanodegreeAppButton"
+        android:onClick="onAntAppButtonClick" />
+
+    <Button
+        android:text="@string/materialize_app_button_label"
+        android:id="@+id/materializeAppButton"
+        style="@style/AppItem.AppButton.NanodegreeAppButton"
+        android:onClick="onMaterializeAppButtonClick" />
+    <Button
+        android:text="@string/own_app_button_label"
+        android:id="@+id/ownAppButton"
+        style="@style/AppItem.AppButton.OwnAppButton"
+        android:onClick="onOwnAppButtonClick" />
+</LinearLayout>
